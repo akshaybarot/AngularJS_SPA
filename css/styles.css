@@ -1,0 +1,149 @@
+/* @font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./MuseoSans_500/Fonts/museo-sans-condensed-700-webfont.ttf") format("truetype");
+} */
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./MuseoSans_500/Fonts/museo-sans-condensed-700-webfont.eot") format("embedded-opentype"), url("./MuseoSans_500/Fonts/museo-sans-condensed-700-webfont.woff") format("woff"), url("./MuseoSans_500/Fonts/museo-sans-condensed-700-webfont.ttf") format("opentype");
+}
+
+
+
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./MuseoSans_500/Fonts/museo-sans-condensed-500-webfont.eot") format("embedded-opentype"), url("./MuseoSans_500/Fonts/museo-sans-condensed-500-webfont.woff") format("woff"), url("./MuseoSans_500/Fonts/museo-sans-condensed-500-webfont.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Museo Sans";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./MuseoSans_500/Fonts/museo-sans-condensed-100-webfont.eot") format("embedded-opentype"), url("./MuseoSans_500/Fonts/museo-sans-condensed-100-webfont.woff") format("woff"), url("./MuseoSans_500/Fonts/museo-sans-condensed-100-webfont.ttf") format("opentype");
+}
+body{
+  font-family: "Museo sans" !important;
+  background-color: #F7F7F7
+}
+
+section{
+  margin: 0 auto;
+  background-color: #F7F7F7;
+  height: 500px;
+}
+
+.lbl{
+display: inline-block;
+background-color: white;
+padding: 5% 6% 0 6%;
+}
+
+#link-color{
+  background-color: #25BDBE;
+}
+#link-color a { 
+  color: whitesmoke;
+  text-align: center;
+}
+
+#link-color a:hover {  
+  color: white;
+  font-weight: bold;
+}
+#link-color a:active { 
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+}
+#signin{
+  text-decoration: none;
+  color: #25BDBE;
+}
+
+section .container {
+  overflow: hidden;
+}
+
+.nxt{
+	color: white;
+	background-color: #ff8f32;
+}
+
+.back{
+  color: #25BDBE;
+}
+.back-arrow{
+  padding-top: 3px;
+}
+
+section .container a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+section .container a:hover {
+  color: #00B261;
+  text-decoration: none;
+}
+
+#heading {
+  font-weight: 100;
+}
+
+.select-size {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.celb {
+  height: 200px !important;
+}
+.gender:hover {
+ border: 2px solid black;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+#flag-container + a:hover {
+  color: #00B261;  
+}
+
+
+/* For mobile phones: */
+@media (max-width: 768px) {
+  
+.nav-link {
+    padding: 0.5rem 0rem !important;
+  }
+  .navbar {
+    padding: 0.5rem 0rem !important;
+  }
+  #heading {
+    font-size: 24px;
+  }
+  .container a {
+    font-size: 14px;
+  }
+  .container .back-arrow {
+    padding-top: 2.5px;
+  }
+  .gender{
+    height: 120px !important;
+  }
+  .select-size {
+    font-size: 16px;
+  }
+}
+
+
+
+ 
+
+
+
+
+ 

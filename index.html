@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Demo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Welcome to Kiwico</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.js"></script>   
+    <script type="text/javascript" src="./js/ng-route.js"></script>
+
+</head>
+
+<body>
+    <!-- Header and Navbar Menu -->
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.jpg" width="50px" height="50px" alt="logo">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OUR LINES
+
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GIFT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=" # ">STORE</a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="flag-container">
+                    <img id="flag" src="https://icdn.kiwicrate.com/country_flags/us.svg" alt="USA Flag" height="20px" width="27px">
+                    <i class="fa fa-angle-down arrow-down mr-2 mr-xs-0  ml-2 ml-xs-0" aria-hidden="true" style="font-size:20px"></i>
+                </div>
+                <a href="" class="d-none d-lg-block" id="signin">Sign In</a>
+            </nav>
+        </div>
+        <div id="nav1">
+            <ul class="nav nav-pills nav-fill" id="link-color">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Subscription</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sales Order</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Rewards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#!first_page">Account</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!--Section start here -->
+   
+        <ng-view></ng-view>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript " src="../js/main.js "></script>
+</body>
+
+</html>
